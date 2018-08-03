@@ -1,0 +1,52 @@
+{
+  "_from": "@sxf/mock-plugin",
+  "_id": "@sxf/mock-plugin@1.1.5",
+  "_inBundle": false,
+  "_integrity": "sha1-aoNAmUfy+HZ3yLoXo8tRNgXEJGk=",
+  "_location": "/@sxf/mock-plugin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@sxf/mock-plugin",
+    "name": "@sxf/mock-plugin",
+    "escapedName": "@sxf%2fmock-plugin",
+    "scope": "@sxf",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "http://200.200.151.26:7001/@sxf/mock-plugin/download/@sxf/mock-plugin-1.1.5.tgz",
+  "_shasum": "6a83409947f2f87677c8ba17a3cb513605c42469",
+  "_spec": "@sxf/mock-plugin",
+  "_where": "C:\\Users\\kenic\\Desktop\\web",
+  "author": {
+    "name": "czt"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "http-proxy-middleware": "^0.17.4",
+    "mkdirp": "^0.5.1"
+  },
+  "deprecated": false,
+  "description": "mock data",
+  "devDependencies": {
+    "express": "^4.16.2",
+    "opn": "^5.1.0"
+  },
+  "keywords": [
+    "mock",
+    "http-proxy-middleware"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@sxf/mock-plugin",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "version": "1.1.5"
+}
