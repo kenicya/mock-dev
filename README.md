@@ -4,35 +4,7 @@
 
 
 
-### 安装
-
-dependencies
-
-```
-npm i -D @sxf/mock-plugin
-```
-
-
-
-### 使用方式
-
 **第一步：**
-
-```
-var app = express();
-
-...
-
-app.use(require('@sxf/mock-plugin')({
-    target: 'http://20.10.1.46' //配置默认的代理地址
-}));
-
-
-```
-
-
-
-**第二步：**
 
 在项目根目录建立mock文件夹
 
@@ -64,10 +36,3 @@ exports.check = function () {
 
 ```
 
-
-
-### config配置项
-
-app.use(require('@sxf/mock-plugin')(config));
-
-config 配置项可参考：[http-proxy-middleware]( http://200.200.151.26:7005/package/http-proxy-middleware)
